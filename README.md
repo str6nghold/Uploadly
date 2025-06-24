@@ -12,21 +12,10 @@ a suite of scripts to automate roblox decal management: fetch, modify, upload, a
 - randomized naming via a `names` file
 - cookie persistence and csrf handling
 
-## 📁 project structure
+## 📁 important notice
 
-.
-├── main_fetch_and_notify.py # check user decals + notify discord
-├── image_editor.py # random pixel editor for decals/models
-├── roblox_asset_manager.py # asset api wrapper + discord notifier
-├── uploader.py # upload images via roblox api
-├── webhook.txt # saved discord webhook
-├── previous_cookie # saved .ROBLOSECURITY cookie
-├── names # list of possible asset display names
-├── output/ # output folder for modified images
-├── requirements.txt
-└── README.md
-
-
+in .env, replace "apikey" with a roblox OpenCloud API Key that has read permissions for assets.
+API Keys are found on the left-hand side of the Roblox Creator Hub under "OpenCloud API"
 
 
 ## ✅ prerequisites
