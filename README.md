@@ -1,4 +1,4 @@
-# roblox asset automation suite
+# 💌 Uploadly
 
 a suite of scripts to automate roblox decal management: fetch, modify, upload, and notify via discord.
 
